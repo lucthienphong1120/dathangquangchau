@@ -1,0 +1,72 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #c1392b;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* khi đặt thế này thỳ 1.6rem = 16px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid var(--white-color);
+    padding: 14px 36px;
+    border-radius: 50px;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.btn-red-white {
+    color: var(--primary-color);
+    background: var(--white-color);
+    padding: 14px 33px;
+}
+
+.btn:hover {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.btn-red-white:hover {
+    color: var(--white-color);
+    background: var(--primary-color);
+}
+
+.btn__no-borrder {
+    border: none;
+}
+
+.margin__r6 {
+    margin-right: 6px;
+}
+
+.margin__bt20 {
+    margin-bottom: 20px;
+}
+
+.margin__bt30 {
+    margin-bottom: 30px;
+}
+
+.margin__top30 {
+    margin-top: 30px;
+}
+
+.color_white {
+    color: var(--white-color);
+    font-weight: 400;
+}
+
+.pading_0 {
+    padding: 0;
+}
